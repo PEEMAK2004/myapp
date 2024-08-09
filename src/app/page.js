@@ -1,14 +1,15 @@
-import Link from "next/link";
-import Carousel from "./components/Carousel";
-import CardsPage from "./components/card";
-import Footer from "@/app/components/footer"
+import Image from "next/image";
+import styles from "./page.module.css";
+import Carousel from "./components/carousel";
+import Card from "./components/card";
 
 export default function Home() {
   return (
     <>
-    <Carousel />
-    <CardsPage />
-    <Footer />
+      <Carousel/>
+      <br/>
+      <Card/>
+      <br/>
     </>
   );
 }

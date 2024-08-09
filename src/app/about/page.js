@@ -1,11 +1,12 @@
-import Link from "next/link";
+import Image from "next/image";
 
-export default function Home() {
+export default function About() {
   return (
-    <>
-    <h1><center>About Page</center></h1>
-    <br />
-    <center><Link href="/">Home</Link> | <Link href="/about">About</Link> | <Link href="/service">Service</Link> | <Link href="/contact">Contact</Link></center>
-    </>
+    <div className="container-fluid">
+      <figure className="figure">
+        <img src="/assets/img/coming soon1.png" className="figure-img img-fluid rounded" alt="..." />
+        <figcaption className="figure-caption"></figcaption>
+      </figure>
+    </div>
   );
 }
