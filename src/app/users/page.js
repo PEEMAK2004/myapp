@@ -10,7 +10,7 @@ export default function Page() {
       try {
         const res = await fetch('http://localhost:3001/api/users');
         if (!res.ok) {
-          console.error('Failed to fetch data');
+          console.error('Failed to fetch data');  
           return;s
         }
         const data = await res.json();
@@ -30,11 +30,11 @@ export default function Page() {
 
     <br /><br /><br /><br />
     <div className="container">
-      <div class="card">
-  <div class="card-header">
+      <div className="card">
+  <div className="card-header">
     Users List
   </div>
-  <div class="card-body">
+  <div className="card-body">
   <div className="row">
       <table className="table table-striped table-hover">
         <thead>

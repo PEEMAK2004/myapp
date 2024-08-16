@@ -27,11 +27,11 @@ export default function Page() {
     <>
     <br /><br /><br />
     <div className="container">
-    <div class="card">
-  <div class="card-header bg-success text-white">
+    <div className="card">
+  <div className="card-header bg-success text-white">
     SignUp Form
   </div>
-  <div class="card-body">
+  <div className="card-body">
 
   <form className="row g-3" onSubmit={handleSubmit}>
   <div className="col-md-6">
@@ -63,7 +63,7 @@ export default function Page() {
     </div>
   </div>
   <div className="col-12">
-    <button type="submit" className="btn btn-success"><i class="bi bi-box-arrow-right"></i> Sign Up</button>
+    <button type="submit" className="btn btn-success"><i className="bi bi-box-arrow-right"></i> Sign Up</button>
   </div>
 </form>
 </div>
